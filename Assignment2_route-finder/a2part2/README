@@ -1,0 +1,57 @@
+Name: Seyed Sajjad Daneshmand  
+ID #:  1603769
+CMPUT  275  Winter 2020
+Assignment2_part2: Driving Route map
+
+Included Files:
+	server:
+		dijkstra.h
+		heap.h
+		wdigraph.h
+		digraph.h
+		server.cpp (the one that was provided on eclass) // Modified
+		dijkstra.cpp
+		edmonton-roads-2.0.1.txt
+		Makefile 
+		digraph.cpp
+		serialport.cpp
+		serialport.h
+	client:
+		client.cpp
+		consts_and_types.h
+		draw_route.h
+		draw_route.cpp // Modified
+		lcd_image.cpp
+		lcd_image.h
+		Makefile
+		map_drawing.cpp
+		map_drawing.h
+		serial_handling.cpp // Modified
+		serial_handling.h
+
+Accessories:
+
+	TFT Display
+	Arduino
+
+Running instrucion:
+
+	Unzip the a2part2.zip and go to client directory and type the command make upload and then
+	type go to server directory and type make && ./server 
+	
+Wiring Instruction:
+
+	VRx <--> A8
+	VRy <--> A9
+	SW  <--> Digital Pin 53
+	GND <--> GND
+	+5V <--> 5V
+
+	GND <--> Zoom Out Button <--> Digital Pin 47
+	GND <--> Zoom In Button  <--> Digital Pin 45
+
+Notes and Assupmtions:
+
+	I worked really hard despite my partnet totally bailing on me
+	but the program does not work properly after the first route is drawn
+	but first works perfectly fine

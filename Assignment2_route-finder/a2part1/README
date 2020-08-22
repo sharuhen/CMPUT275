@@ -1,0 +1,22 @@
+Name: Seyed Sajjad Daneshmand  
+ID #:  1603769
+CMPUT  275  Winter 2020
+Assignment2_part1: Server
+
+Included Files:
+
+	server.cpp
+	heap.h
+	dijkstra.cpp
+	dijkstra.h
+	Makefile
+
+Accessories:
+
+	None
+
+Running instrucion:
+
+	Unzip the a2part1.zip and go to its directory and type the command make and then type 
+	./server <inputfilename> outputfilename
+
